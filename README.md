@@ -1,4 +1,4 @@
-# Raspberry Pi Interface App
+# Flutter APP for DSP/TSE Raspberry Device
 
 A Flutter-based app interface for monitoring and controlling a Raspberry Pi device, built with support for **Windows** and **Android** platforms. The app features a modular layout, real-time visualizations, customizable settings, and mock data designed to simulate future integration with hardware APIs and Python-based backend pipelines.
 
