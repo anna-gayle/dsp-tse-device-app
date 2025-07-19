@@ -1,0 +1,47 @@
+name: dsp_tse_device_app
+description: "A Flutter app interface for a Raspberry Device with DSP and TSE."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ---------------------- THEMING ----------------------
+  flex_color_scheme: ^8.2.0
+
+  # ---------------------- UI FRAMEWORK ----------------------
+  animations: ^2.0.11
+  flutter_spinkit: ^5.2.1
+  font_awesome_flutter: ^10.8.0
+  stylish_bottom_bar: ^1.1.1
+  google_fonts: ^6.1.0
+
+  # ---------------------- FORM & SLIDER ----------------------
+  flutter_form_builder: ^10.1.0 # OPTIONAL
+  syncfusion_flutter_sliders: ^30.1.40
+
+  # ---------------------- VISUALIZATION ----------------------
+  syncfusion_flutter_charts: ^30.1.40
+  syncfusion_flutter_gauges: ^30.1.40
+  flutter_svg: ^2.2.0
+
+  # ---------------------- DEVICE & SYSTEM INFO ----------------------
+  package_info_plus: ^8.3.0
+
+  # ---------------------- AUDIO ----------------------
+  waveform_flutter: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
