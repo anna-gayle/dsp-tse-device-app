@@ -61,9 +61,7 @@ flutter run -d windows
 flutter run -d android
 ```
 
-## User Acceptibility Testing
-
-## ✅ User Acceptance Test Cases – Flutter Companion App
+## User Acceptibility Testing (Flutter App)
 
 | Test Case ID | Test Scenario              | Test Description                                                              | Expected Result                                                | Actual Result            | Status              |
 |--------------|----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------|---------------------------|---------------------|
