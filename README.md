@@ -59,3 +59,20 @@ flutter run -d windows
 
 # Or run on Android
 flutter run -d android
+```
+
+## UAT (for documentation purposes)
+
+## ✅ User Acceptance Test Cases – Flutter Companion App
+
+| Test Case ID | Test Scenario              | Test Description                                                              | Expected Result                                                | Actual Result            | Status              |
+|--------------|----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------|---------------------------|---------------------|
+| UAT-01       | Toggle Controls            | Verify that toggles and sliders across DSP settings respond to user input    | UI controls change state and values update visually            | Works as expected         | ✅ Passed            |
+| UAT-02       | View System Metrics & Charts | Confirm CPU, memory, mic status, and system charts display changing mock data | Metrics and visualizations (charts/gauges) update as intended  | Works as expected         | ✅ Passed            |
+| UAT-03       | Switch Themes              | Switch between light, dark, and system theme modes                            | App updates UI appearance according to selected theme          | Works as expected         | ✅ Passed            |
+| UAT-04       | Navigate Between Pages     | Tap on navigation elements to change between sections                         | Correct screen loads without layout issues                     | Works as expected         | ✅ Passed            |
+| UAT-05       | Simulate Waveform          | Ensure waveform visualizer animates to reflect simulated audio data           | Waveform updates in sync with mock values                      | Works as expected         | ✅ Passed            |
+| UAT-06       | Display on Multiple Devices | Test layout behavior across Android and Windows devices                       | Responsive layout adjusts to screen size and platform          | Minor overflow on Android | ☑️ Passed with note  |
+| UAT-07       | Platform-aware Navigation  | Confirm correct navigation behavior per platform (bottom nav vs sidebar)      | Navigation type switches based on target platform              | Works as expected         | ✅ Passed            |
+| UAT-08       | Visual Consistency         | Check for visual and spacing consistency across components                    | Uniform design language with no visual anomalies               | Works as expected         | ✅ Passed            |
+| UAT-09       | Simulated Data Handling    | Validate how mock services provide simulated values to UI                     | Simulated values display properly (charts, metrics, waveform)  | Not applicable (mock-only phase) | ⚠️ Not Applicable  |
