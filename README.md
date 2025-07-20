@@ -61,7 +61,7 @@ flutter run -d windows
 flutter run -d android
 ```
 
-## UAT (for documentation purposes)
+## User Acceptibility Testing
 
 ## ✅ User Acceptance Test Cases – Flutter Companion App
 
